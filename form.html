@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TOUIMER</title>
+</head>
+<body>
+	<h1>Formulaire de CV</h1>
+	<form action="woof" method="post">
+		<label for="non"><strong>Nom et prénom:</strong></label>
+		<input id="non" placeholder="votre nom et prénom" type="text" required><br><br>
+
+		<label for="ville"><strong>Ville de résidence:</strong></label>
+		<input id="ville" placeholder="votre ville" type="text" name="" required><br><br>
+
+		<label for="email"><strong>Email:</strong></label>
+		<input id="email" placeholder="votre email" type="email" name="" required><br><br>
+
+		<label for="ném"><strong>Numéro de telephone:</strong></label>
+		<input id="ném" placeholder="xx-xx-xx-xx-xx" pattern="[0-9]{10}" max="10" type="telephone" name="" required><br><br>
+
+		<label for="comment"><strong>Déscription:</strong></label><br>
+		<textarea id="comment" placeholder="remplir votre description" rows="5" cols="20" required></textarea><br><br>
+
+		<label for="date"><strong>Date de naissance:</strong></label>
+		<input id="date" placeholder="" type="date" name=""><br><br>
+
+		<label for="formation"><strong>Formation:</strong></label><br>
+		<textarea id="formation" placeholder="votre formation" rows="5" cols="20" required></textarea><br>
+	<p> <h3>Langues:</h3>
+
+        <input id="list1" type="checkbox" value="français" name="">
+		<label for="list1">Français</label><br>
+
+		<input id="list1.1" type="radio" name="lang fr">
+		<label for="list1.1">Avancé</label>
+		<input id="list1.1" type="radio" name="lang fr">
+		<label for="list1.1">Intermédiaire</label>
+		<input id="list1.1" type="radio" name="lang fr">
+		<label for="list1.1">Langue maternelle</label><br>
+
+        <input id="list2" type="checkbox" value="Anglais" name="">
+		<label for="list2">Anglais</label><br>
+
+		<input id="list1" type="radio" name="lang en">
+		<label for="list1">Avancé</label>
+		<input id="list1.1" type="radio" name="lang en">
+		<label for="list1.1">Intermédiaire</label>
+		<input id="list1.1" type="radio" name="lang en">
+		<label for="list1.1">Langue maternelle</label><br>
+	
+	    <input id="list3" type="checkbox" value="Arabic" name="">
+		<label for="list3">Arabic</label><br>
+        
+        <input id="list1" type="radio" name="lang arb">
+		<label for="list1">Avancé</label>
+		<input id="list1.1" type="radio" name="lang arb">
+		<label for="list1.1">Intermédiaire</label>
+		<input id="list1.1" type="radio" name="lang arb">
+		<label for="list1.1">Langue maternelle</label><br><br>
+
+		<label for="ecole"><strong>Ecole:</strong></label>
+		<select id="ecole" name="ecole" required>
+			<option value="esgen">ESGEN</option>
+			<option value="esc">ESC</option>
+			<option value="ensm">ENSM</option>
+			<option value="ehec">EHEC</option>
+			<option value="enssea">ENSSEA</option>
+		</select>
+		
+	</p>
+
+
+		<input type="submit" name="">
+		<input type="reset" name="">
+
+
+
+
+	</form>
+
+</body>
+</html>
+
